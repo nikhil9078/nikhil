@@ -89,7 +89,13 @@ section {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
     color: var(--text-white);
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+-webkit-box-reflect:below 1px linear-gradient(transparent, #0005 border-radius:50%) ;
 }
+
 
 h1 {
     font-size: 54px;
@@ -101,6 +107,7 @@ h1 {
 
 h1 span {
     color: var(--primary-color);
+    
 }
 
 h2 {
@@ -233,7 +240,7 @@ button {
     width: 100%;
     height: auto;
     min-height: 1000px;
-    background-image: url('bg.jpg');
+    background-image: url('img/bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -307,6 +314,13 @@ button {
     display: block;
     color: var(--text-gray);
 }
+/* .about_wrapper:hover{
+   
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4; 
+} */
 
 /* 4 Services */
 .services_wrapper .card {
@@ -319,6 +333,10 @@ button {
 .services_wrapper .card:hover {
     box-shadow: 0px 2px 70px 0px rgb(253 71 102 / 5%);
     transform: translateY(-5px);
+     box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
 }
 
 /* 5 Portfolio */
@@ -367,6 +385,12 @@ button {
     font-weight: 700;
     color:var(--text-gray);
 }
+/* .services_wrapper:hover{
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+} */
 /* 7 footer */
 .footer_wrapper {
     background-color: var(--bg-dark-blue);
@@ -409,6 +433,10 @@ button {
 .footer_wrapper .copyright-text a {
     color: var(--primary-color);
 }
+
+
+        
+      
 
 
         
